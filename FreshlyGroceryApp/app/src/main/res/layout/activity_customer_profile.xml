@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#FFFFFF">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="124dp"
+        android:layout_gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:paddingBottom="16dp">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start">
+            <ImageView
+                android:id="@+id/back"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:src="@drawable/ic_back" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center">
+
+            <ImageView
+                android:id="@+id/logoImageView"
+                android:layout_width="264dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/ic_freshly_logo" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end">
+            <View
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="180dp"
+        android:src="@drawable/ic_profile_pic"
+        android:layout_gravity="center_horizontal"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name"
+        android:textStyle="bold"
+        android:id="@+id/tvName"
+        android:paddingLeft="10dp"
+        />
+
+    <TextView
+        android:id="@+id/tvCustomerName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Aliyar Ahmed"
+        android:paddingLeft="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Email"
+        android:textStyle="bold"
+        android:id="@+id/tvEmail"
+        android:paddingLeft="10dp"
+        />
+
+    <TextView
+        android:id="@+id/tvCustomerEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="aliyar.ahmed@gmail.com"
+        android:paddingLeft="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Gender"
+        android:id="@+id/tvGender"
+        android:textStyle="bold"
+        android:paddingLeft="10dp"/>
+
+    <TextView
+        android:id="@+id/tvCustomerGender"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Male"
+        android:paddingLeft="10dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Date of Birth"
+        android:textStyle="bold"
+        android:id="@+id/tvDOB"
+        android:paddingLeft="10dp"
+        />
+
+    <TextView
+        android:id="@+id/tvCustomerDOB"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="21 March 2003"
+        android:inputType="date"
+        android:paddingLeft="10dp"/>
+
+
+    <Button
+        android:id="@+id/editProfile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Edit Profile"
+        android:backgroundTint="#4CAF50"
+        android:layout_marginTop="16dp" />
+    <Button
+        android:id="@+id/deleteAccount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Delete Account"
+        android:backgroundTint="#4CAF50"
+        android:layout_marginTop="16dp" />
+
+</LinearLayout>
